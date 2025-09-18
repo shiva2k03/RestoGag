@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Restaurant | Hero</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a href="index.html" class="logo" aria-label="Home">Lorem</a>
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-label="Toggle menu" />
+      <nav id="primary-nav" class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="#">Order</a></li>
+          <li><a href="#food">Food</a></li>
+          <li><a href="#restaurant">Restaurant</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="nav-right">
+        
+        <label for="nav-toggle" class="nav-toggle-btn" aria-hidden="true">
+          <img src="images/menu-bar.png" alt="Menu Icon" />
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section gradient-bg">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Lorem Ipsum</p>
+          <h1>Lorem Ipsum</h1>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id est vitae dolor rhoncus tristique. Maecenas metus quam, rhoncus euismod lorem in, sollicitudin viverra eros. Donec dictum luctus quam ut tristique. Curabitur nec faucibus purus. Quisque congue sem nec justo mollis, in tincidunt erat pretium. Sed pulvinar, massa ac porta viverra.</p>
+          <a class="btn" href="#">Click Me</a>
+        </div>
+        <div class="hero-image">
+          <picture>
+            <source srcset="images/gallert-food.jpg" media="(min-width: 992px)">
+            <source srcset="images/gallert-food.jpg" media="(min-width: 576px)">
+            <img src="images/gallert-food.jpg" alt="Burger and fries" loading="eager" />
+          </picture>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
